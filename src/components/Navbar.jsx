@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="blue.500" color="white">
+    <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="green.500" color="white">
       <Box p="2">
         <Link as={RouterLink} to="/" fontSize="xl" fontWeight="bold">
           Nordic Ventures
