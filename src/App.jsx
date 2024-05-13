@@ -3,6 +3,7 @@ import Index from "./pages/Index.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import AreasOfInterest from "./pages/AreasOfInterest.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/portfolio" element={<Portfolio />} />
         <Route exact path="/areas-of-interest" element={<AreasOfInterest />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
